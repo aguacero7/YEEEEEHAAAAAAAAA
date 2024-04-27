@@ -153,4 +153,15 @@
         "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
         "role": "shareholder"
     }
+
+        {
+        "name": "Tony",
+        "surname": "Gerr",
+        "service": "presidence",
+        "telephone": "(+7)6 00 25 67 28",
+        "mail": "emilie.girard@equarris.fr",
+        "idrh": "TG28",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "shareholder"
+    }
 ]
