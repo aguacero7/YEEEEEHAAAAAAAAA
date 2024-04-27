@@ -124,12 +124,12 @@
         "role": "user"
     },
     {
-        "name": "Cécile",
-        "surname": "Lefebvre",
+        "name": "Ana",
+        "surname": "Herond",
         "service": "architecture",
-        "telephone": "(+33)6 23 45 67 89",
-        "mail": "cecile.lefebvre@equarris.fr",
-        "idrh": "CL89",
+        "telephone": "(+33)6 23 45 67 45",
+        "mail": "ana.herond@equarris.fr",
+        "idrh": "AH45",
         "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
         "role": "user"
     },
