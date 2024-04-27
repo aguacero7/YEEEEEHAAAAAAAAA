@@ -1,0 +1,156 @@
+[
+    {
+        "name":"David",
+        "surname":"Gatel",
+        "service":"direction",
+        "telephone":"(+33)6 88 55 91 97",
+        "mail":"david.gatel@univ-rennes.fr",
+        "idrh":"DG97",
+        "mdp":"$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role":"user"
+    },
+
+    {
+        "name":"Michel",
+        "surname":"Guillemau",
+        "service":"direction",
+        "telephone":"(+33)6 14 18 39 45",
+        "mail":"michel.guillemau@univ-rennes.fr",
+        "idrh":"MG45",
+        "mdp":"$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role":"user"
+    },
+
+    
+    {
+        "name":"Benjamin",
+        "surname":"Cardaut-Vivier",
+        "service":"direction",
+        "telephone":"(+243)6 22 30 39 49",
+        "mail":"benjamin.cardautvivier@etudiant.univ-rennes.fr",
+        "idrh":"BC49",
+        "mdp":"$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role":"admin"
+    }
+,
+    {
+        "name": "Florian",
+        "surname": "Lacruz",
+        "service": "dsi",
+        "telephone": "(+33)7 83 93 04 56",
+        "mail": "florian.lacruz@etudiant.univ-rennes.fr",
+        "idrh": "FL56",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "admin"
+    },
+    {
+        "name": "Marie",
+        "surname": "Leroy",
+        "service": "commercial",
+        "telephone": "(+33)6 23 45 67 89",
+        "mail": "marie.leroy@equarris.fr",
+        "idrh": "ML89",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Pierre",
+        "surname": "Martin",
+        "service": "commercial",
+        "telephone": "(+33)6 34 56 78 90",
+        "mail": "pierre.martin@equarris.fr",
+        "idrh": "PM90",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Sophie",
+        "surname": "Dubois",
+        "service": "commercial",
+        "telephone": "(+33)6 45 67 89 01",
+        "mail": "sophie.dubois@equarris.fr",
+        "idrh": "SD01",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Luc",
+        "surname": "Bernard",
+        "service": "commercial",
+        "telephone": "(+33)6 56 78 90 12",
+        "mail": "luc.bernard@equarris.fr",
+        "idrh": "LB12",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Claire",
+        "surname": "Thomas",
+        "service": "architecture",
+        "telephone": "(+33)6 67 89 01 23",
+        "mail": "claire.thomas@equarris.fr",
+        "idrh": "CT23",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Philippe",
+        "surname": "Petit",
+        "service": "architecture",
+        "telephone": "(+33)6 78 90 12 34",
+        "mail": "philippe.petit@equarris.fr",
+        "idrh": "PP34",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Sandrine",
+        "surname": "Rousseau",
+        "service": "juridique",
+        "telephone": "(+33)6 01 23 45 67",
+        "mail": "sandrine.rousseau@equarris.fr",
+        "idrh": "SR67",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Nicolas",
+        "surname": "Durand",
+        "service": "architecture",
+        "telephone": "(+33)6 45 67 89 01",
+        "mail": "nicolas.durand@equarris.fr",
+        "idrh": "ND01",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Cécile",
+        "surname": "Lefebvre",
+        "service": "architecture",
+        "telephone": "(+33)6 23 45 67 89",
+        "mail": "cecile.lefebvre@equarris.fr",
+        "idrh": "CL89",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "user"
+    },
+    {
+        "name": "Olivier",
+        "surname": "Mercier",
+        "service": "presidence",
+        "telephone": "(+33)6 78 90 12 34",
+        "mail": "olivier.mercier@equarris.fr",
+        "idrh": "OM34",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "shareholder"
+    },
+    {
+        "name": "Émilie",
+        "surname": "Girard",
+        "service": "presidence",
+        "telephone": "(+33)6 01 23 45 67",
+        "mail": "emilie.girard@equarris.fr",
+        "idrh": "EG67",
+        "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
+        "role": "shareholder"
+    }
+]
