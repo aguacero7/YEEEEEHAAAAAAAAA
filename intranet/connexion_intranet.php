@@ -15,7 +15,7 @@ echo "
 <nav class='navbar navbar-expand-sm'>
   <ul class='navbar-nav'>
     <li class='nav-item'>
-      <a class='nav-link' href='#'>Retour</a>
+      <a class='nav-link' href='../vitrine/vitrine.php'>Retour</a>
     </li>
     </ul>
 </nav></div>"; 
