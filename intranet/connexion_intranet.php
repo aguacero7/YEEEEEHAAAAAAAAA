@@ -40,6 +40,19 @@ echo "
         <br>
         <input type='password' id='mdp' name='mdp'>
         <br>
+        <br>";
+
+        //gestion des alertes
+        if ( isset($_GET['error']) && $_GET['error']=='mdp'){
+            echo "<div class='alert alert-danger' role='alert'>Attention - Mot de passe ou identifiant erronés</div>";
+        }
+        elif(isset($_GET['error']) && $_GET['error']=='nopost'){
+            echo "<div class='alert alert-danger' role='alert'>Attention - Merci de remplir tous les champs ci-dessus</div>";
+        }
+
+
+        echo "
+        <br>
         <br>
         <input type='submit' class='btn btn-info' name='submit' value='Se connecter'>
     </form>
