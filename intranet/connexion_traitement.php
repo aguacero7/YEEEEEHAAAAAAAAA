@@ -36,7 +36,7 @@ if(isset($_POST["identifiant"])){
 
     if (!isset($_SESSION["idrh"])){
     http_response_code(301);
-    header('connexion_traitement.php?error=nosession'); //si malgré le traitement, il n'y a rien dans la sessions,alors on renvoie une erreur
+    header('connexion_traitement.php?error=mdp'); //si malgré le traitement, il n'y a rien dans la sessions, c'est que le mdp ne correspond pas ou que l'identifiant est erroné alors on renvoie une erreur
     }
 }
 else {
