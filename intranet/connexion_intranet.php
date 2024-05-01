@@ -46,7 +46,7 @@ echo "
         if ( isset($_GET['error']) && $_GET['error']=='mdp'){
             echo "<div class='alert alert-danger' role='alert'>Attention - Mot de passe ou identifiant erronés</div>";
         }
-        elif(isset($_GET['error']) && $_GET['error']=='nopost'){
+        elseif(isset($_GET['error']) && $_GET['error']=='nopost'){
             echo "<div class='alert alert-danger' role='alert'>Attention - Merci de remplir tous les champs ci-dessus</div>";
         }
 
