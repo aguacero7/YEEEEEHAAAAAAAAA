@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
                 $_SESSION["mail"] = $user["mail"];
                 $_SESSION["role"] = $user["role"];
                 //ne pas mettre mdp dans la session
-
+                $controle = 0;
                 http_response_code(301);
                 //header('location:/SAE203/intranet/accueil.php'); créer la page acceuil de l'intranet ! 
                 break;
