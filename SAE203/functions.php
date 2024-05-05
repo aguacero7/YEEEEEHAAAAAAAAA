@@ -170,6 +170,39 @@ function vitrine_footer() {
     ';
 }
 
+function intranet_navbar(){
+    echo "
+<body>
+<div>
+"; 
+//début de la navbar
+echo" 
+<nav class='navbar navbar-expand-sm bg-primary'>
+    <ul class='navbar-nav mr-auto'> "; //le mr-auto permet d'aligner à droite tout ce qui ne possède pas mr-auto (donc la deconnexion ci-dessous)
+  echo "
+        <li class='nav-item'>
+            <a class='nav-link text-dark' href='accueil.php'>Accueil</a>
+         </li>
+         <li class='nav-item'>
+            <a class='nav-link text-dark' href='#'>Organigramme</a>
+        </li>
+        <li class='nav-item'>
+            <a class='nav-link text-dark' href='#'>Annuaire</a>
+        </li>
+        <li class='nav-item'>
+            <a class='nav-link text-dark' href='#'>Mon espace</a>
+        </li>
+    </ul>
+    <ul class='navbar-nav'>
+        <li>
+            <form action='deconnexion_intranet.php' method='POST'>
+                <input type='submit' class='btn btn-dark' value='Se déconnecter'>
+            </form>
+        </li>
+    </ul>
+</nav>";
+}
+
 
 
 
