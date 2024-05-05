@@ -9,7 +9,6 @@ if(isset($_POST["submit"])){
     if($_POST["identifiant"] != "" && $_POST["mdp"] != ""){
         foreach($users_list as $user){
             if($_POST["identifiant"] == $user['idrh'] && password_verify($_POST["mdp"],$user["mdp"])){
-                $controle = 0;
                 $_SESSION["name"] = $user["name"];
                 $_SESSION["surname"] = $user["surname"];
                 $_SESSION["idrh"] = $user["idrh"]; //=$_POST["identifiant"]
@@ -28,7 +27,9 @@ if(isset($_POST["submit"])){
 }
 else{
     http_response_code(301);
-    header('location:/SAE203/intranet/connexion_intranet.php?error=nopost'); //si il n'y a rien dans le $_POST, on renvoie une erreur
+    header('location:/SAE203/intranet/connexion_intranet.php?error=nopost');
+    $controle = 0;
+     //si il n'y a rien dans le $_POST, on renvoie une erreur
     // afficher une erreur "Tout les champs ne sont pas complet ! " 
 }
 
@@ -41,5 +42,3 @@ if ($controle == 1){ //si la session est vide ==> mauvais mdp ou IDRH
 
 }
 ?>
-
-
