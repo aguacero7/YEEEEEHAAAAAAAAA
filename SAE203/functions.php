@@ -184,13 +184,13 @@ echo"
             <a class='nav-link text-dark' href='accueil.php'>Accueil</a>
          </li>
          <li class='nav-item'>
-            <a class='nav-link text-dark' href='#'>Organigramme</a>
+            <a class='nav-link text-dark' href='organigramme.php'>Organigramme</a>
         </li>
         <li class='nav-item'>
-            <a class='nav-link text-dark' href='#'>Annuaire</a>
+            <a class='nav-link text-dark' href='annuaire.php'>Annuaire</a>
         </li>
         <li class='nav-item'>
-            <a class='nav-link text-dark' href='#'>Mon espace</a>
+            <a class='nav-link text-dark' href='espace.php'>Mon espace</a>
         </li>
     </ul>
     <ul class='navbar-nav'>
