@@ -318,7 +318,7 @@ foreach($users_list as $users){
 if($controle !=0){
     echo "</div>"; // on ferme la div row même si la ligne n'est pas complète
 }
-
+}
 
 
 
