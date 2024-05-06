@@ -14,13 +14,13 @@ function vitrine_navbar() {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" aria-current="page" href="../intranet/connexion_intranet.php">Intranet</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link mx-2 active" aria-current="page" href="vitrine.php">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" href="exemple.php">Produits</a>
+                            <a class="nav-link mx-2 active" aria-current="page" href="#">Qui sommes nous ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="histoire.php">Notre Histoire</a>
                         </li>
                         <li class="nav-item d-none d-lg-block">
                             <a class="nav-link mx-2" style="color: black;">
@@ -28,18 +28,13 @@ function vitrine_navbar() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" href="avis.php">Avis</a>
+                            <a class="nav-link mx-2 active" href="exemple.php">Nos Offres</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" href="histoire.hp">Entreprise</a>
+                            <a class="nav-link mx-2 active" aria-current="page" href="../intranet/connexion_intranet.php">Intranet</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="tel:+33783930456">
-                                <img src="../image/tel.svg" alt="Téléphone" height="24" style="margin-right: 5px;">
-                                +33 07 83 93 04 56
-                            </a>
+                            <a class="nav-link mx-2 active" aria-current="page" href="#">Nous contacter</a>
                         </li>
                     </ul>
                 </div>
