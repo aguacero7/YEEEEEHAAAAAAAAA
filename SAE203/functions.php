@@ -151,27 +151,102 @@ function vitrine_head(){
 
 function vitrine_footer() {
     echo '
-        <footer class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: #5FA8D3;" id="footerNav">
-            <div class="container-fluid">
-                <a class="navbar-brand d-block d-lg-none" href="#">
-                    <img src="../image/logo.png" height="80" alt="Logo" />
-                </a>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <span class="nav-link mx-2 active" aria-current="page">Equarris</span>
+    <footer class="bg-test text-white pt-5 pb-4 mt-5">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <span><img src="../image/logo.png" alt="logo" width="200px"></span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quae maxime expedita sequi maiores quibusdam.
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
+                    Products
+                </h5>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">SAE23</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Sources</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Bootsrap</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
+                    Products
+                </h5>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">SAE23</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Sources</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Bootsrap</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
+                    Nous Trouver
+                </h5>
+                <p>
+                    <i class="fas fa-home mr-3"> test</i>
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"> test</i>
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3">test</i>
+                </p>
+                <p>
+                    <i class="fas fa-print mr-3">test</i>
+                </p>
+            </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-3 col-lg-5">
+                <p>
+                    © All Rights Reserved
+                    <a href="#" style="text-decoration: none;"><strong class="text-grey">Equaris</strong></a>
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-5">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item ">
+                            <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
                         </li>
-                        <li class="nav-item">
-                            <span class="nav-link mx-2">Créée en 1984, Equarris est le spécialiste de l’aménagement de combles, de la rénovation, de l’extension et de l’amélioration de l’habitat en France.</span>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
                         </li>
-                        <li class="nav-item">
-                            <span class="nav-link mx-2">© All Rights Reserved.</span>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
     ';
 }
 
