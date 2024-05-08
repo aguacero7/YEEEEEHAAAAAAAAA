@@ -28,7 +28,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('bg.jpg');
+    background-image: url('./../../../image/bg.jpg');
     opacity: 0.4; /* Opacité de l'image de fond */
     z-index: -1;
     pointer-events: none;
