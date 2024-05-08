@@ -55,7 +55,7 @@ for ($i=0; $i < count($users_list); $i++){
                             <div class='modal-body'>
                     
                     
-                            <form method='post' action='functions.php'>
+                            <form method='post' action='../functions.php'>
                             <input type='hidden' name='action' value='elever'>
                             <p><span id='modalUsername'></span></p>
                             <div class='form-group'>
@@ -87,7 +87,7 @@ for ($i=0; $i < count($users_list); $i++){
                     echo "
                     
                     <br>
-                    <form method='post' action='functions.php'>
+                    <form method='post' action='../functions.php'>
                         <input type='hidden' name='action' value='supprimer'>
                         <input type='hidden' name='index' value='".$current_index."'>
                         <button type='submit' class='btn btn-danger btn-sm'>Supression</button>
@@ -119,7 +119,7 @@ for ($i=0; $i < count($users_list); $i++){
         <div class='modal-body'>
 
 
-        <form method='post' action='functions.php'>
+        <form method='post' action='../functions.php'>
         <input type='hidden' name='action' value='ajouter'>
 
       
