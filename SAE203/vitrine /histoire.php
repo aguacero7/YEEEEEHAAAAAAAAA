@@ -115,7 +115,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
-    <script src='JS/timelinejs.js'></script>
+    <script src='js/timelinejs.js'></script>
     </body>";
     echo vitrine_footer();
     ?>
