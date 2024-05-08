@@ -243,6 +243,63 @@ function vitrine_footer() {
 #                                                     INTRANET                                                                          #
 #########################################################################################################################################
 
+//**************************************************Pour administrer.php***************************************************************//
+
+if(isset($_POST['action'])){
+    if($_POST['action'] == 'supprimer'){
+        funcsuppression($_POST['index']);
+    }
+    elseif($_POST['action'] == 'ajouter'){
+        funcajouter();
+    }
+    elseif($_POST['action'] == 'changerole'){
+        funcchangerole();
+    }
+}
+
+
+function funcsuppression($index){
+    $users_list = json_decode(file_get_contents('data/users.json'), true);
+    unset($users_list[$index]);
+    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
+    http_response_code(301);
+    header('location:/intranet/administrer.php');
+}
+
+
+function funcajouter(){
+    $users_list = json_decode(file_get_contents('data/users.json'), true);
+    $newuser = array(
+        "name" => $_POST["name"],
+        "surname" => $_POST["surname"],
+        "service" => $_POST["service"],
+        "telephone" => $_POST["telephone"],
+        "mail" => $_POST["mail"],
+        "idrh" => $_POST["idrh"],
+        "mdp" => password_hash($_POST["motdepasse"], PASSWORD_DEFAULT),
+        "role" => $_POST["role"]
+    );
+    array_push($users_list, $newuser);
+    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
+    http_response_code(301);
+    header('location:/intranet/administrer.php');
+
+}
+
+
+function funcchangerole(){
+    $users_list = json_decode(file_get_contents('data/users.json'), true);
+    $users_list[$_POST['index']]["role"] = $_POST["role"];
+
+    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
+    http_response_code(301);
+    header('location:/intranet/administrer.php');
+
+}
+
+
+//***********************************************************************************************************************//
+
 function intranet_navbar(){
     echo "
 <body>
