@@ -111,6 +111,152 @@ function vitrine_body() {
     </div>';
 }
 
+function vitrine_equaris_body(){
+echo "<body>
+<div class='container mt-5 mb-5 rounded pb-5 pt-5' style='background-color: #62B6CB;'>
+    <div class='row'>
+        <div class='col-sm-1'></div>
+        <div class='col-sm-4'>
+            <img src='./../image/logo.png' alt='logo'>
+        </div>
+        <div class='col-sm-2'></div>
+        <div class='col-sm-4 mt-5 mb-5'>
+            <h5>Equaris à la volition d'offrir à tous les individus des logements ou des infrastructures pour leur vie ou pour leurs projets. Depuis 1983, Equaris s'engage dans la construction, la vente et la location de logement moderne et de qualité tout en assurant des prix raisonnables et accessibles. </h5>
+        </div>
+        <div class='col-sm-1'></div>
+    </div>
+</div>
+<div class='container-fluid pb-5 pt-5 pl-5' style='background-color: #BEE9E8;'>
+    <div class='row'>
+        <div class='col-sm-2'></div>
+        <div class='col-sm-4 pt-5'>
+            <h1 class='display-4 pb-3'>Pour qui ?</h1>
+            <p>Equaris s'engage à offir une solution à chaque individu et à leur besoin. Que vous soyez des particuliers, des professionnels ou des collectivités, Equaris vous accompagnera dans la réalisation de vos projet.</p>
+        </div>
+        <div class='col-sm-5'>
+            <img src='./../image/img1.png' alt='img1' width='500px'>
+        </div>
+    </div>
+</div>
+<div class='container-fluid pb-5 pt-5 pl-5'>
+    <div class='row'>
+        <div class='col-sm-1'></div>
+        <div class='col-sm-9'>
+            <h1 class='display-4 pb-3'>Quel type de logements ?</h1> 
+            <span>Nous construisons,louons et vendons des logements de toutes sortes. En passant de la maison individuelle à l'école ou aux locaux d'entreprise, vous trouverez forcément votre bonheur avec Equaris</span>
+        </div>
+    </div>
+    <div class='row mt-3 ml-3 text-center'>
+        <div class='col-sm-1'></div>
+        <div class='col-sm-3'>
+        <div class='card' style='width:400px'>
+            <img class='card-img-top' src='./../image/maison.jpg' alt='Card image'>
+            <div class='card-body'>
+              <h4 class='card-title'>Pour les particuliers</h4>
+              <p class='card-text'>Vous êtes à la recherche d'un logement en location ou pour devenir propriétaire ? Nous avons ce qu'il vous faut.</p>
+            </div>
+          </div>
+          </div>
+        <div class='col-sm-3'>
+          <div class='card' style='width:400px'>
+            <img class='card-img-top' src='./../image/immeuble.jpg' alt='Card image'>
+            <div class='card-body'>
+              <h4 class='card-title'>Pour les entreprises</h4>
+              <p class='card-text'>Vous souhaitez faire passer votre activité au niveau supérieur ? Equaris est là pour vous aider.</p>
+            </div>
+          </div>
+          </div>
+          <div class='col-sm-3'>
+          <div class='card' style='width:400px'>
+            <img class='card-img-top' src='./../image/maison_medicale.jpg' alt='Card image'>
+            <div class='card-body'>	
+              <h4 class='card-title'>Pour les collectivités</h4>
+              <p class='card-text'>Vous êtes maires, préfet ou élu et vous shouaitez développer l'activité ou les services de votre territoire ? Notre entrprise est là pour vous accompagner tout le long de votre projet.</p>
+            </div>
+          </div>
+          </div>
+        <div class='col-sm-1'></div>
+    </div>
+</div>
+<div class='container text-center'>
+<a href='#' class='btn btn-primary'>Découvrir nos offres</a>
+</div>
+<div class='container-fluid mt-5 pt-5 pb-5' style='background-color: #1B4965;'> 
+        <h3 class='pt-3 pb-5 text-center text-white'>Ils nous ont fait confiance...</h3>
+<div id='demo' class='carousel slide' data-bs-ride='carousel'>
+
+    <!-- Indicators/dots -->
+    <div class='carousel-indicators'>
+      <button type='button' data-bs-target='#demo' data-bs-slide-to='0' class='active'></button>
+      <button type='button' data-bs-target='#demo' data-bs-slide-to='1'></button>
+      <button type='button' data-bs-target='#demo' data-bs-slide-to='2'></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class='container'>
+    <div class='carousel-inner'>
+      <div class='carousel-item active'>
+        <div class='card'>
+            <div class='card-body mt-5 mb-5'>
+            <div class='row'>
+                <div class='col-sm-1'></div>
+                <div class='col-sm-3'>
+                <img class='img-circle' src='./../image/bretagne.png' alt='user' width='100px'/>
+                </div>
+                <div class='col-sm-5'>
+                <span style='font-style: italic;'>'Une entreprise qui nous accompagne maintenant depuis des années dans l'aménagement du territoire avec un sérieux et une qualité exemplaire'</span>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class='carousel-item '>
+        <div class='card'>
+            <div class='card-body mt-5 mb-5'>
+            <div class='row'>
+                <div class='col-sm-1'></div>
+                <div class='col-sm-3'>
+                <img class='img-circle' src='./../image/ile et vilaine.png' alt='user' width='125px'/>
+                </div>
+                <div class='col-sm-5'>
+                <span style='font-style: italic;'>'Nous travaillons avec Equaris depuis plus d'une décénnie maintenant et nous n'avons jamais été déçu par la qualité du travail et des infrastructures fournies'</span>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class='carousel-item'>
+        <div class='card'>
+            <div class='card-body mt-5 mb-5'>
+            <div class='row'>
+            <div class='col-sm-1'></div>
+            <div class='col-sm-3'>
+                <img class='img-circle' src='./../image/IUT-de-Saint-Malo-logo.png' alt='user' width='110px'/>
+            </div>
+            <div class='col-sm-5'>
+                <span style='font-style: italic;'>'Nos locaux ont été construit par Equaris il y a 20 ans, les locaux sont toujours aussi pratiques et durables dans le temps. Une entreprise au sérieux exemplaire.'</span>
+            </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class='carousel-control-prev' type='button' data-bs-target='#demo' data-bs-slide='prev'>
+      <span class='carousel-control-prev-icon'></span>
+    </button>
+    <button class='carousel-control-next' type='button' data-bs-target='#demo' data-bs-slide='next'>
+      <span class='carousel-control-next-icon'></span>
+    </button>
+  </div>
+</div>
+</body>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'></script>";
+}
+
+
 // contient les scripts pour le menu deroulant de la navbar + l\'icon du site
 function vitrine_head(){
     echo '
