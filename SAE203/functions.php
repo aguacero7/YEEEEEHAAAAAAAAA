@@ -30,7 +30,7 @@ function vitrine_navbar() {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" href="exemple.php">Nos Offres</a>
+                            <a class="nav-link mx-2 active" href="offres.php">Nos Offres</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2 active" aria-current="page" href="../intranet/connexion_intranet.php">Intranet</a>
