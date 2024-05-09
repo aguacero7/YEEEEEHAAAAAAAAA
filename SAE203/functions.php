@@ -19,7 +19,7 @@ function vitrine_navbar() {
                             <a class="nav-link mx-2 active" aria-current="page" href="vitrine.php">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active" aria-current="page" href="#">Qui sommes nous ?</a>
+                            <a class="nav-link mx-2 active" aria-current="page" href="equaris.php">Qui sommes nous ?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2 active" href="histoire.php">Notre Histoire</a>
