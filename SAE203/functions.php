@@ -381,46 +381,7 @@ function vitrine_footer() {
     ';
 }
 
-function vitrine_offres_body(){
-    echo '
-        <div class="p-5 text-black" style="background: url(\'../image/bg.jpg\') no-repeat center fixed; background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center;">  
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card1.png" alt="" style="width:100%">
-                    </div>
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card2.png" alt="" style="width:100%">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card3.png" alt="" style="width:100%">
-                    </div>
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card4.png" alt="" style="width:100%">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card5.png" alt="" style="width:100%">
-                    </div>
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card6.png" alt="" style="width:100%">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card7.png" alt="" style="width:100%">
-                    </div>
-                    <div class="card mb-3" style="width:400px">
-                        <img class="card-img-top" src="../image/card8.png" alt="" style="width:100%">
-                    </div>
-                </div>
-            </div>
-        </div>
-    ';
-}
+
 
 #########################################################################################################################################
 #                                                     INTRANET                                                                          #
@@ -490,7 +451,7 @@ function intranet_navbar(){
 "; 
 //début de la navbar
 echo" 
-<nav class='navbar navbar-expand-sm bg-primary'>
+<nav class='navbar navbar-expand-sm bg-test text-white '>
     <ul class='navbar-nav mr-auto'> "; //le mr-auto permet d'aligner à droite tout ce qui ne possède pas mr-auto (donc la deconnexion ci-dessous)
   echo "
         <li class='nav-item'>
@@ -562,4 +523,90 @@ if($controle !=0){
 
 
 
+
+function intranet_footer() {
+    echo '
+    <footer class="bg-test text-white pt-5 pb-4 mt-5">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <span><img src="../image/logo.png" alt="logo" width="200px"></span>
+                <p>
+                    <a class="buttonAction" href="/SAE203/SAE203-dev/SAE203/intranet/accueil.php" target="_blank" rel="noopener">
+                        Accès au site internet 
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
+                    Equaris
+                </h5>
+                <p>
+                    <a class="text-white" style="text-decoration: none;">2 Rue de null part</a>
+                </p>
+                <p>
+                    <a  class="text-white" style="text-decoration: none;">35000 Rennes</a>
+                </p>
+                <p>
+                    <a class="text-white" style="text-decoration: none;">Tél: 02 99 78 56 34</a>
+                </p>
+                <p>
+                    <a class="text-white" style="text-decoration: none;">N° de SIRET : 28345355884615</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
+                    Consultez également
+                </h5>
+                <p>
+                    <a href="/SAE203/SAE203-dev/SAE203/intranet/organigramme.php" class="text-white" style="text-decoration: none;">Notre Organigramme</a>
+                </p>
+                <p>
+                    <a href="/SAE203/SAE203-dev/SAE203/intranet/annuaire.php" class="text-white" style="text-decoration: none;">Notre annuaire</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Notre actualité</a>
+                </p>
+                <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Nos évènements</a>
+                </p>
+            </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-3 col-lg-5">
+                <p>
+                    © All Rights Reserved
+                    <a href="#" style="text-decoration: none;"><strong class="text-grey">Equaris</strong></a>
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-5">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item ">
+                            <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    ';
+}
 ?>
