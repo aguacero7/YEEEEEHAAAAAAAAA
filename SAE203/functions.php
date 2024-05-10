@@ -381,7 +381,46 @@ function vitrine_footer() {
     ';
 }
 
-
+function vitrine_offres_body(){
+    echo '
+        <div class="p-5 text-black" style="background: url(\'../image/bg.jpg\') no-repeat center fixed; background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center;">  
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card1.png" alt="" style="width:100%">
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card2.png" alt="" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card3.png" alt="" style="width:100%">
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card4.png" alt="" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card5.png" alt="" style="width:100%">
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card6.png" alt="" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card7.png" alt="" style="width:100%">
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card8.png" alt="" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    ';
+}
 
 #########################################################################################################################################
 #                                                     INTRANET                                                                          #
