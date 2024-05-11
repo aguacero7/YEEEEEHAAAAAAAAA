@@ -19,7 +19,7 @@ if(isset($_POST["submit"])){
                 //ne pas mettre mdp dans la session
                 $controle = 0;
                 http_response_code(301);
-                //header('location:/SAE203/intranet/accueil.php'); créer la page acceuil de l'intranet ! 
+                header('location:/SAE203/intranet/accueil.php');
                 break;
                 
             }
