@@ -31,7 +31,7 @@ echo "
 // formulaire 
 echo "
 <div class='text-center'>
-    <form action='#' method='POST'>
+    <form action='connexion_traitement.php' method='POST'>
         <label for='identifiant'> Entrez votre identifiant :</label>
         <br>
         <input type='text' id='identifiant' name='identifiant'>
