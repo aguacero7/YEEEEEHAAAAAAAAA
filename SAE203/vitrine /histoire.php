@@ -16,19 +16,12 @@
 		<link rel='stylesheet' href='./CSS/colors.css'>
         <title>Document</title>
     </head>
-    <body>
-        
-    </body>
     </html>
     ";
     ?>
-
-
-    <body>
     <?php
     echo vitrine_navbar();
     echo "<body>
-    <br>
     <div class='container-fluid  timeline_color text-center '>
         <h1>L'Histoire d'Equaris</h1>
         <p>
