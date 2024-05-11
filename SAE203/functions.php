@@ -381,6 +381,152 @@ function vitrine_footer() {
     ';
 }
 
+function vitrine_offres_body(){
+    echo '
+        <div class="p-5 text-black" style="background: url(\'../image/bg.jpg\') no-repeat center fixed; background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center;">  
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card1.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Maison<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 200 123 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Région Nouvelle Aquitaine<br>
+                            <br>
+                            ARCHITECTE: Clermont Ferrand<br>
+                            <br>
+                            LIEU: Limoges<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card2.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Immeuble<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 2 123 567 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Société Mercure<br>
+                            <br>
+                            ARCHITECTE: Pierre Goasduff<br>
+                            <br>
+                            LIEU: Bordeaux<br>
+                            <br>
+                            MISSION: Second Oeuvre
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card3.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Maison<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 366 000 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: La Poste<br>
+                            <br>
+                            ARCHITECTE: Mathis Brindejonc<br>
+                            <br>
+                            LIEU: Limoges<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card4.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Ecole Primaire<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 1 414 124 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: LIMOGES HABITAT<br>
+                            <br>
+                            ARCHITECTE: Florian Lacruz<br>
+                            <br>
+                            LIEU: Beaune-les-Mines<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card5.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Cabinet Médical<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 414 124 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Entreprise NovaBuild<br>
+                            <br>
+                            ARCHITECTE: Benjamin Cardaut-Vivier<br>
+                            <br>
+                            LIEU: Ville-sur-Mer<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card6.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Maison de Retraite<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 1 000 000 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Société Nouvelle Horizon<br>
+                            <br>
+                            ARCHITECTE: Mike Hock<br>
+                            <br>
+                            LIEU: Saint-Malo<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card7.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Maison<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 150 000 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Bricolo Bricolage<br>
+                            <br>
+                            ARCHITECTE: Quentin Soichet<br>
+                            <br>
+                            LIEU: Rennes<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:400px">
+                        <img class="card-img-top" src="../image/card8.png" alt="" style="width:100%">
+                        <div class="card-text" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 20px;">
+                            TYPE DE BATIMENT: Maison<br>
+                            <br>
+                            MONTANT DE L\'OPÉRATION: 170 000 € HT<br>
+                            <br>
+                            MAÎTRE D\'OUVRAGE: Constructions Harmonie<br>
+                            <br>
+                            ARCHITECTE: Baptiste Marilleau<br>
+                            <br>
+                            LIEU: Vannes<br>
+                            <br>
+                            MISSION: Gros Oeuvre
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/offres.js"></script>
+    ';
+}
+
 
 
 #########################################################################################################################################
