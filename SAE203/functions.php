@@ -282,7 +282,7 @@ function vitrine_head(){
 
 function vitrine_footer() {
     echo '
-    <footer class="bg-test text-white pb-4 mt-5">
+    <footer class="bg-test text-white pb-4">
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
