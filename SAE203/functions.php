@@ -623,48 +623,6 @@ echo"
 </nav>";
 }
 
-function body_annuaire(){
-    echo"
-<div class='text-center'>
-    <h1> Annuaire des employés de l'entreprise </h1>
-</div>";
-
-$users_list = json_decode(file_get_contents('../data/users.json'), true);
-$controle = 0; 
-foreach($users_list as $users){
-    if($controle == 0){
-        echo"<div class=row>";
-    }
-        $controle +=1; 
-        echo"
-        <div class='col p-3 text-center'>
-            <div class='card' style='width:400px'>
-                <div class='card-body bg-info'>
-                    <h4 class='card-title'>$users[name] $users[surname]</h4>
-                    <p class='card-text'>
-                        Service : $users[service] <br>
-                        Mail : $users[mail] <br>
-                        Téléphone : $users[telephone]
-                    </p>
-                </div>
-            </div>
-            <br>
-        </div>
-        ";
-    if($controle ==3){
-        $controle = 0;
-        echo"
-        </div>
-        <br>
-        <br>
-        ";
-    }
-    }
-if($controle !=0){
-    echo "</div>"; // on ferme la div row même si la ligne n'est pas complète
-}
-}
-
 
 
 
