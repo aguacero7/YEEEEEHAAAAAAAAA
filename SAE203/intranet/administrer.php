@@ -29,7 +29,7 @@ for ($i=0; $i < count($users_list); $i++){
                     <tr>
                     <td>".$users_list[$i]['idrh']."</td>
                     <td>".$users_list[$i]['name']." ".$users_list[$i]['surname']."</td>
-                    <td>".$users_list[$i]['email']."</td>
+                    <td>".$users_list[$i]['mail']."</td>
                     <td>".$users_list[$i]['telephone']."</td>
                     <td>".$users_list[$i]['service']."</td>
                     <td>".$users_list[$i]['role']."</td>
