@@ -3,7 +3,7 @@
 session_start();
 include('../functions.php');
 vitrine_head();
-intranet_navbar()
+intranet_navbar();
 
 $users_list = json_decode(file_get_contents('../data/users.json'), true);
 
