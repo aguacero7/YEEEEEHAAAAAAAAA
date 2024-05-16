@@ -288,41 +288,41 @@ function vitrine_footer() {
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <span><img src="../image/logo.png" alt="logo" width="200px"></span>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quae maxime expedita sequi maiores quibusdam.
+                    Des fondations solides pour un futur durable.
                 </p>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
-                    Products
+                    Codes
                 </h5>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">SAE23</a>
+                    <a href="" class="text-white" style="text-decoration: none;">Javascript</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                    <a href="" class="text-white" style="text-decoration: none;">PHP</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Sources</a>
+                    <a href="" class="text-white" style="text-decoration: none;">HTML</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Bootsrap</a>
+                    <a href="" class="text-white" style="text-decoration: none;">CSS</a>
                 </p>
             </div>
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-grey">
-                    Products
+                    Produits
                 </h5>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">SAE23</a>
+                    <a href="" class="text-white" style="text-decoration: none;">Maisons</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                    <a href="" class="text-white" style="text-decoration: none;">Immeublesy</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Sources</a>
+                    <a href="" class="text-white" style="text-decoration: none;">Magasins</a>
                 </p>
                 <p>
-                    <a href="" class="text-white" style="text-decoration: none;">Bootsrap</a>
+                    <a href="" class="text-white" style="text-decoration: none;">Hôtels</a>
                 </p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -330,16 +330,16 @@ function vitrine_footer() {
                     Nous Trouver
                 </h5>
                 <p>
-                    <i class="fas fa-home mr-3">Le Trescoët, 56850 Caudan</i>
+                    <i class="fas fa-home mr-3"> Le Trescoet, 56850 Caudan</i>
                 </p>
                 <p>
-                    <i class="fas fa-phone mr-3">+33 7 83 93 04 56</i>
+                    <i class="fas fa-phone mr-3"> +33 7 83 93 04 56</i>
                 </p>
                 <p>
-                    <i class="fas fa-envelope mr-3">equaris@equaris.com</i>
+                    <i class="fas fa-envelope mr-3"> equaris@equaris.com</i>
                 </p>
                 <p>
-                    <i class="fas fa-print mr-3">28345355884615</i>
+                    <i class="fas fa-print mr-3"> 28345355884615</i>
                 </p>
             </div>
         </div>
