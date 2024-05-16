@@ -330,16 +330,16 @@ function vitrine_footer() {
                     Nous Trouver
                 </h5>
                 <p>
-                    <i class="fas fa-home mr-3"> test</i>
+                    <i class="fas fa-home mr-3">Le Trescoët, 56850 Caudan</i>
                 </p>
                 <p>
-                    <i class="fas fa-phone mr-3"> test</i>
+                    <i class="fas fa-phone mr-3">+33 7 83 93 04 56</i>
                 </p>
                 <p>
-                    <i class="fas fa-envelope mr-3">test</i>
+                    <i class="fas fa-envelope mr-3">equaris@equaris.com</i>
                 </p>
                 <p>
-                    <i class="fas fa-print mr-3">test</i>
+                    <i class="fas fa-print mr-3">28345355884615</i>
                 </p>
             </div>
         </div>
@@ -370,7 +370,7 @@ function vitrine_footer() {
                             <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="list-inline-item ">
-                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
