@@ -548,12 +548,20 @@ if(isset($_POST['action'])){
 }
 
 
-function funcsuppression($index){
+function funcsuppression(){
+    $new_tab = array();  
     $users_list = json_decode(file_get_contents('data/users.json'), true);
-    unset($users_list[$index]);
-    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
+    foreach($users_list as $users){
+        if($_POST['idrh'] == $users['idrh']){
+            //on ne le rajoute pas 
+        }
+        else{
+            array_push($new_tab, $users);
+        }
+    }
+    file_put_contents("data/users.json",json_encode($new_tab, JSON_PRETTY_PRINT));
     http_response_code(301);
-    header('location:/intranet/administrer.php');
+    header('location:/SAE203/intranet/administrer.php');
 }
 
 
