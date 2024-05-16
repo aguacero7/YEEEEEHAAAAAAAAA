@@ -644,7 +644,7 @@ function intranet_footer() {
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <span><img src="../image/logo.png" alt="logo" width="200px"></span>
                 <p>
-                    <a class="buttonAction" href="/SAE203/SAE203-dev/SAE203/intranet/accueil.php" target="_blank" rel="noopener">
+                    <a class="buttonAction" href="/SAE203/intranet/accueil.php" target="_blank" rel="noopener">
                         Accès au site internet 
                     </a>
                 </p>
