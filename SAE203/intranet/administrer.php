@@ -21,27 +21,27 @@ echo "
 <td>Rôle<td>
 <td>Action</td>
 </tr> ";
-
-for ($i=0; $i < count($users_list); $i++){
-            $current_index = $i;
+$current_index = 0;
+foreach ($users_list as $users) {
+            
 
             echo"
                     <tr>
-                    <td>".$users_list[$i]['idrh']."</td>
-                    <td>".$users_list[$i]['name']." ".$users_list[$i]['surname']."</td>
-                    <td>".$users_list[$i]['mail']."</td>
-                    <td>".$users_list[$i]['telephone']."</td>
-                    <td>".$users_list[$i]['service']."</td>
-                    <td>".$users_list[$i]['role']."</td>
+                    <td>".$users['idrh']."</td>
+                    <td>".$users['name']." ".$users['surname']."</td>
+                    <td>".$users['mail']."</td>
+                    <td>".$users['telephone']."</td>
+                    <td>".$users['service']."</td>
+                    <td>".$users['role']."</td>
                     <td>
 
 
 
                     <form method='post' action='../functions.php'>
                         <input type='hidden' name='action' value='changerole'>
-                        <input type='hidden' name='index' value='".$i."'>
-                        <button type='button' class='btn btn-success btn-sm open-modal' data-bs-toggle='modal' data-bs-target='#myModalRight".$i."'>Changer le rôle</button>
-                        <div class='modal' id='myModalRight".$i."'>
+                        <input type='hidden' name='index' value='".$current_index."'>
+                        <button type='button' class='btn btn-success btn-sm open-modal' data-bs-toggle='modal' data-bs-target='#myModalRight".$current_index."'>Changer le rôle</button>
+                        <div class='modal' id='myModalRight".$current_index."'> 
                         <div class='modal-dialog'>
                           <div class='modal-content'>
                       
@@ -90,6 +90,7 @@ for ($i=0; $i < count($users_list); $i++){
                     <form method='post' action='../functions.php'>
                         <input type='hidden' name='action' value='supprimer'>
                         <input type='hidden' name='index' value='".$current_index."'>
+                        <input type='hidden' name='idrh' value='$users[idrh]'>
                         <button type='submit' class='btn btn-danger btn-sm'>Supression</button>
                     </form>
                     </td>
@@ -97,7 +98,7 @@ for ($i=0; $i < count($users_list); $i++){
 
                 ";
 
-        
+    $current_index += 1;
     }
     echo "</table>";
     
