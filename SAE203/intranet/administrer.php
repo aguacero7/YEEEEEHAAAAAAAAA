@@ -18,8 +18,8 @@ echo "
 <td>Email</td>
 <td>Télépone</td>
 <td>Service</td>
-<td>Rôle<td>
-<td>Action</td>
+<td>Rôle</td>
+<td>Gérer</td>
 </tr> ";
 $current_index = 0;
 foreach ($users_list as $users) {
@@ -35,63 +35,22 @@ foreach ($users_list as $users) {
                     <td>".$users['role']."</td>
                     <td>
 
-
-
-                    <form method='post' action='../functions.php'>
-                        <input type='hidden' name='action' value='changerole'>
-                        <input type='hidden' name='index' value='".$current_index."'>
-                        <button type='button' class='btn btn-success btn-sm open-modal' data-bs-toggle='modal' data-bs-target='#myModalRight".$current_index."'>Changer le rôle</button>
-                        <div class='modal' id='myModalRight".$current_index."'> 
-                        <div class='modal-dialog'>
-                          <div class='modal-content'>
-                      
-                            <!-- Modal Header -->
-                            <div class='modal-header'>
-                              <h4 class='modal-title'>Modifier'</h4>
-                              <button type='button' class='btn-close' data-bs-dismiss='modal'></button>
-                            </div>
-                      
-                            <!-- Modal body -->
-                            <div class='modal-body'>
-                    
-                    
-                            <form method='post' action='../functions.php'>
-                            <input type='hidden' name='action' value='elever'>
-                            <p><span id='modalUsername'></span></p>
-                            <div class='form-group'>
-                            <label for='role'>Rôle</label>
-                            <select name='role' id='role'>
-                                <option value='user'>Utilisateur</option>
-                                <option value='admin'>Administrateur</option>
-                                <option value='shareholder'>Actionnaire</option>
-                            </select>
-                           </div>
-                    
-                    
-                            <br>
-                            <button type='submit' class='btn btn-primary btn-sm'>Envoyer</button>
-                            </div>
-                      
-                            <!-- Modal footer -->
-                            <div class='modal-footer'>
-                              <button type='button' class='btn btn-danger' data-bs-dismiss='modal'>Close</button>
-                            </div>
-                      
-                          </div>
-                        </div>
-                      </div>
-                      </form>";
-
-
-
-                    echo "
-                    
-                    <br>
-                    <form method='post' action='../functions.php'>
+                    <form method='POST' action='../functions.php'>
                         <input type='hidden' name='action' value='supprimer'>
                         <input type='hidden' name='index' value='".$current_index."'>
                         <input type='hidden' name='idrh' value='$users[idrh]'>
                         <button type='submit' class='btn btn-danger btn-sm'>Supression</button>
+                    </form>
+                    <br>
+                    <form action='../functions.php' method='POST'>
+                    <input type='hidden' name='action' value='changer'>
+                    <select id='role' name='role'>
+                      <option value='user'> Utilisateur </option>
+                      <option value='admin'> Administrateur </option>
+                    </select>
+                    <input type='hidden' name='idrh' value='$users[idrh]'>
+                    <br>
+                    <button type='submit' class='btn btn-success'>Changer</button>
                     </form>
                     </td>
                     </tr>
@@ -101,96 +60,6 @@ foreach ($users_list as $users) {
     $current_index += 1;
     }
     echo "</table>";
-    
-
-    echo "<br>";
-    echo "<button type='submit' class='btn btn-primary btn-lg btn-outline-light' data-bs-toggle='modal' data-bs-target='#myModal'>Ajouter</button>";
-    echo "
-    <div class='modal' id='myModal'>
-    <div class='modal-dialog'>
-      <div class='modal-content'>
-  
-        <!-- Modal Header -->
-        <div class='modal-header'>
-          <h4 class='modal-title'>Ajouter</h4>
-          <button type='button' class='btn-close' data-bs-dismiss='modal'></button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class='modal-body'>
-
-
-        <form method='post' action='../functions.php'>
-        <input type='hidden' name='action' value='ajouter'>
-
-      
-        <div class='form-group'>
-          <label>Prénom de l'utilisateur</label>
-          <input type='text' class='form-control' name='name' placeholder='Prénom' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>Nom de l'utilisateur</label>
-          <input type='text' class='form-control' name='surname' placeholder='Nom' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>Service</label>
-          <input type='text' class='form-control' name='service' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>IDRH</label>
-          <input type='text' class='form-control' name='idrh' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>E-Mail</label>
-          <input type='text' class='form-control' name='mail' placeholder='E-mail' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>Téléphone</label>
-          <input type='text' class='form-control' name='telephone' placeholder='Téléphone' required>
-        </div>
-        <br>
-
-        <div class='form-group'>
-          <label>Mot de passe</label>
-          <input type='password' class='form-control' name='motdepasse' required>
-        </div>
-       <br>
-
-        <div class='form-group'>
-        <label for='role'>Rôle</label>
-        <select name='role' id='role'>
-            <option value='user'>Utilisateur</option>
-            <option value='admin'>Administrateur</option>
-            <option value='shareholder'>Actionnaire</option>
-        </select>
-       </div>
-
-
-        <br>
-        <button type='submit' class='btn btn-primary btn-sm'>Envoyer</button>
-        </div>
-  
-        <!-- Modal footer -->
-        <div class='modal-footer'>
-          <button type='button' class='btn btn-danger' data-bs-dismiss='modal'>Close</button>
-        </div>
-  
-      </div>
-    </div>
-  </div>";
-    
-    echo "<br>";
-    echo "<br>";
     echo "</div>";
 
 
