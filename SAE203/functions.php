@@ -537,12 +537,12 @@ function vitrine_offres_body(){
 
 if(isset($_POST['action'])){
     if($_POST['action'] == 'supprimer'){
-        funcsuppression($_POST['index']);
+        funcsuppression();
     }
     elseif($_POST['action'] == 'ajouter'){
         funcajouter();
     }
-    elseif($_POST['action'] == 'changerole'){
+    elseif($_POST['action'] == 'changer'){
         funcchangerole();
     }
 }
@@ -556,7 +556,7 @@ function funcsuppression(){
             //on ne le rajoute pas 
         }
         else{
-            array_push($new_tab, $users);
+            array_push($new_tab, $users); // sinon on le rajoute 
         }
     }
     file_put_contents("data/users.json",json_encode($new_tab, JSON_PRETTY_PRINT));
@@ -564,34 +564,21 @@ function funcsuppression(){
     header('location:/SAE203/intranet/administrer.php');
 }
 
-
-function funcajouter(){
-    $users_list = json_decode(file_get_contents('data/users.json'), true);
-    $newuser = array(
-        "name" => $_POST["name"],
-        "surname" => $_POST["surname"],
-        "service" => $_POST["service"],
-        "telephone" => $_POST["telephone"],
-        "mail" => $_POST["mail"],
-        "idrh" => $_POST["idrh"],
-        "mdp" => password_hash($_POST["motdepasse"], PASSWORD_DEFAULT),
-        "role" => $_POST["role"]
-    );
-    array_push($users_list, $newuser);
-    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
-    http_response_code(301);
-    header('location:/intranet/administrer.php');
-
-}
-
-
 function funcchangerole(){
-    $users_list = json_decode(file_get_contents('data/users.json'), true);
-    $users_list[$_POST['index']]["role"] = $_POST["role"];
-
-    file_put_contents("data/users.json",json_encode($users_list, JSON_PRETTY_PRINT));
+    $test = json_decode(file_get_contents('data/users.json'), true);
+    $new_tab = array();   
+    foreach($test as $users){
+        if($users['idrh'] == $_POST['idrh']){
+            $users['role'] = $_POST['role'] ;
+            array_push($new_tab, $users);
+        }
+        else{
+            array_push($new_tab, $users);
+        }
+    }
+    file_put_contents("data/users.json",json_encode($new_tab, JSON_PRETTY_PRINT));
     http_response_code(301);
-    header('location:/intranet/administrer.php');
+    header('location:/SAE203/intranet/administrer.php');
 
 }
 
