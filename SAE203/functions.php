@@ -112,7 +112,7 @@ function vitrine_body() {
 }
 
 function vitrine_equaris_body(){
-echo "<body>
+echo "
 <div class='container mt-5 mb-5 rounded pb-5 pt-5' style='background-color: #62B6CB;'>
     <div class='row'>
         <div class='col-sm-1'></div>
@@ -252,7 +252,6 @@ echo "<body>
     </button>
   </div>
 </div>
-</body>
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'></script>";
 }
 
