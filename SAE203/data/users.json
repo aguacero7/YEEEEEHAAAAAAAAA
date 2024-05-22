@@ -163,5 +163,16 @@
         "idrh": "TG28",
         "mdp": "$2y$10$EztV.T8zsvz4sXMVAOBiKee.ByapuNsNPfp4BsoVtNNuZtRGn7YKa",
         "role": "shareholder"
-    }
+    },
+
+    {
+    "name": "sexy",
+    "surname": "man",
+    "service": "presidence",
+    "telephone": "(+7)6 00 25 67 29",
+    "mail": "mecsupersexy@bogoss.fr",
+    "idrh": "TU95",
+    "mdp": "$2y$10$yIrnR0SFRoFEyMW1A698p.M3gW/Mf3y/8m9RSULlJggXG6fJP.GKG", 
+    "role": "admin"
+}
 ]
